@@ -78,8 +78,14 @@ section {
 /* ========================= */
 
 .hero {
+    display:flex;
     text-align: center;
     padding: 70px 0;
+    gap: 100px;
+}
+
+.hero img {
+    border-radius: 50%;
 }
 
 .hero h1 {
